@@ -1,0 +1,45 @@
+{
+  "name": "XAssistant",
+  "displayName": "XAssistant",
+  "version": "0.0.2",
+  "description": "MicrosoftEdgeやGoogleChromeで利用できる、AIアシスタントです。",
+  "author": "yuma@umaxiaotian.com",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "test": "plasmo test"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@plasmohq/messaging": "^0.5.0",
+    "@plasmohq/storage": "^1.7.2",
+    "ace-builds": "^1.28.0",
+    "antd": "^5.7.3",
+    "axios": "^1.4.0",
+    "bip39": "^3.1.0",
+    "markdown-to-jsx": "^7.3.2",
+    "plasmo": "0.82.1",
+    "react": "18.2.0",
+    "react-ace": "^10.1.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.0",
+    "@types/chrome": "0.0.241",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "prettier": "3.0.0",
+    "typescript": "5.1.6"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "contextMenus",
+      "storage"
+    ]
+  }
+}

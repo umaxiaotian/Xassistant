@@ -1,0 +1,20 @@
+/* styles.css */
+.dark-mode {
+  background-color: #141414;
+  color: white;
+  
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#__plasmo {
+  height: 100%;
+}
